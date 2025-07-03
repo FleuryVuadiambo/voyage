@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+body {
+  background-color: brown;
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+}
+
+
+h3, h5, p, a {
+  color: black;
+}
+
+section {
+  min-height: 600px;
+}
+
+nav-header {
+  background-color: brown;
+}
+
+.telephone {
+  text-align: center;
+}
+.telephone i {
+  width: 64px;
+  font-size: 30px;
+} 
+
+p.col-laterale {
+  text-align: justify;
+}
+
+footer {
+  background-color: whitesmoke;
+  color: black;
+  height: 50px;
+}
+/* footer p {
+  text-align: center;
+  padding-top: 5px;
+} */

@@ -1,0 +1,107 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h4 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+/******* HEADER ********/
+.entete {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 900px;
+}
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 8%;
+  left: 19%;
+  width: 60%;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/**************************** SECTION ****************************/
+/******* A PROPOS, A VOIR ********/
+.image1, .image2, .image3 {
+  width: 100%;
+  height: 421px;
+}
+
+/**************  AMANGER *************/
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li {
+  list-style: none;
+}
+ul li img {
+  padding-right: 10px;
+}
+.image4, .image6, .image8 {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.image5 {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.image7 {
+  width: 100%;
+  height: 768px;
+}
+
+/************ EN PLUS ************/
+.image9, .image10, .image11, .image12 {
+  height: 200px;
+  width: 200px;
+}
+
+/********** FOOTER **********/
+footer {
+  background-color: rgb(71, 148, 165);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+footer p {
+  color: white;
+}
